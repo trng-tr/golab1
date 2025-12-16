@@ -1,0 +1,24 @@
+package toint
+
+import (
+	"bufio"
+	"errors"
+	"fmt"
+	"os"
+	"strconv"
+)
+
+func convertToInt2() (int, error) {
+	scanner := bufio.NewScanner(os.Stdin)
+	fmt.Print("Saisir une valeur à convertir en int: ")
+	scanner.Scan()
+	var varName string = scanner.Text()
+	if varName == "" {
+		return -1, errors.New("error: chaine vide")
+	}
+	var value, err = strconv.ParseInt(varName, 10, 64)
+	if err != nil {
+		return -1, errors.New("erreur de conversion en int")
+	}
+	return int(value), nil
+}
