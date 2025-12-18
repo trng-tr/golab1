@@ -2,7 +2,7 @@ package anonymousfunc
 
 import (
 	"fmt"
-	"golab1/utils"
+	utils "golab1/utils"
 )
 
 func AnonymousFunction1() {

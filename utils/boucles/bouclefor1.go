@@ -3,7 +3,7 @@ package boucles
 import (
 	"errors"
 	"fmt"
-	"golab1/utils"
+	utils "golab1/utils"
 )
 
 func NombrePairs(n int) ([]int, error) { // chercher les nombres pairs entre 0 et n>=10
