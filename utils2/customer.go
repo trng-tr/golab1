@@ -1,7 +1,7 @@
 package utils2
 
 type Customer struct {
-	id        int
+	uuid      string
 	firstname string
 	lastname  string
 	email     string
