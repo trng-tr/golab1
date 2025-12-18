@@ -1,6 +1,8 @@
-package customer
+package utils2
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func inputCustomer() Customer {
 	var customer Customer = Customer{} // initialiser customer

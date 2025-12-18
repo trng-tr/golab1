@@ -1,4 +1,4 @@
-package customer
+package utils2
 
 type Customer struct {
 	id        int

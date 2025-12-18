@@ -1,7 +1,7 @@
 package main
 
-import "golab1/utils2/customer"
+import "golab1/utils2"
 
 func main() {
-	customer.PrintCustomer()
+	utils2.PrintCustomer()
 }
