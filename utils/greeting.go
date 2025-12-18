@@ -1,5 +1,7 @@
 package utils
 
+import "fmt"
+
 func GetGreeting(name string) string {
-	return "Bonjour " + name + " !"
+	return fmt.Sprintf("Bonjour %v !", name)
 }

@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"golab1/utils"
+	utils "golab1/utils"
 	"golab1/utils/constantes"
-	"golab1/utils/variables"
+	"golab1/utils/variables/declaration" //package declaration
 )
 
 func main() {
@@ -15,7 +15,7 @@ func main() {
 	fmt.Printf("%s\n", message)
 	var autre string
 	fmt.Printf("valeur par défaut de la variable autre %#v\n", autre)
-	variables.VariablesDeclaration()
+	declaration.VariablesDeclaration()
 	constantes.PrintConstante()
 }
 func DisplayMessage() {

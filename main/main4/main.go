@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"errors"
 	"fmt"
-	"golab1/wrappers/tobool"
+	"golab1/utils/wrappers/tobool"
 	"os"
 )
 
